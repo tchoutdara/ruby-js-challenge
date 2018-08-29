@@ -33,3 +33,16 @@
     # end
 
     # count_vowels()
+
+    def numberCheck
+        nums = [0, 1, 2, 3, 4, 5, 6 , 7, 8, 9, 10, 11, 12, 13, 14, 15]
+        nums.each do  |i|
+            if i % 2 == 0
+            puts "#{i} even"
+            else
+                puts "#{i} odd"
+            end
+        end
+    end
+
+    numberCheck
